@@ -2,7 +2,7 @@
 
 | No. | Question                                                                             |
 |-----|--------------------------------------------------------------------------------------|
-| 1   | [What is VueJS?](#1-what-is-vuejs)    |
+| 1   | [What is VueJS?](#1-what-is-vuejs)                                                    |
 | 2   | [What are the major features of VueJS?](#2-what-are-the-major-features-of-vuejs)    |
 | 3   | [What are the lifecycle methods of VueJS?](#3-what-are-the-lifecycle-methods-of-vuejs) |
 | 4   | [What are the conditional directives in VueJS?](#4-what-are-the-conditional-directives-in-vuejs) |
@@ -44,47 +44,49 @@
 | 40  | [What are the possible ways to provide transitions in Vue.js?](#40-what-are-the-possible-ways-to-provide-transitions-in-vuejs) |
 
 
+<!-- | No. | Question                                                                             |
+|-----|--------------------------------------------------------------------------------------|
+| 1   | [What is VueJS?](#1-what-is-vuejs)    |
+| 2   | [What are the major features of VueJS?](#2-what-are-the-major-features-of-vuejs)    |
+| 3   | [What are the lifecycle methods of VueJS?](#3-what-are-the-lifecycle-methods-of-vuejs) |
+| 4   | [What are the conditional directives in VueJS?](#4-what-are-the-conditional-directives-in-vuejs) |
+| 5   | [What is the difference between v-show and v-if directives?](#5-what-is-the-difference-between-v-show-and-v-if-directives) |
+| 6   | [What is the purpose of v-for directive?](#6-what-is-the-purpose-of-v-for-directive) |
+| 7   | [What is a Vue instance?](#7-what-is-a-vue-instance)                                 |
+| 8   | [How do you achieve a conditional group of elements?](#8-how-do-you-achieve-a-conditional-group-of-elements) |
+| 9   | [How do you reuse elements with a key attribute?](#9-how-do-you-reuse-elements-with-a-key-attribute) |
+| 10  | [Why should you not use if and for directives together on the same element?](#10-why-should-you-not-use-if-and-for-directives-together-on-the-same-element) |
+| 11  | [Why do you need to use a key attribute on the v-for directive?](#11-why-do-you-need-to-use-a-key-attribute-on-the-v-for-directive) |
+| 12  | [What are the array detection mutation methods?](#12-what-are-the-array-detection-mutation-methods) |
+| 13  | [What are the array detection non-mutation methods?](#13-what-are-the-array-detection-non-mutation-methods) |
+| 14  | [What are the caveats of array changes detection?](#14-what-are-the-caveats-of-array-changes-detection) |
+| 15  | [What are the caveats of object changes detection?](#15-what-are-the-caveats-of-object-changes-detection) |
+| 16  | [How do you use the v-for directive with a range?](#16-how-do-you-use-the-v-for-directive-with-a-range) |
+| 17  | [How do you use the v-for directive on a template?](#17-how-do-you-use-the-v-for-directive-on-a-template) |
+| 18  | [How do you use event handlers in Vue.js?](#18-how-do-you-use-event-handlers-in-vuejs) |
+| 19  | [What are the event modifiers provided by Vue?](#19-what-are-the-event-modifiers-provided-by-vue) |
+| 20  | [What are key modifiers in Vue.js?](#20-what-are-key-modifiers-in-vuejs)              |
+| 21  | [How do you define custom key modifier aliases in Vue.js?](#21-how-do-you-define-custom-key-modifier-aliases-in-vuejs) |
+| 22  | [What are the supported System Modifier Keys in Vue.js?](#22-what-are-the-supported-system-modifier-keys-in-vuejs) |
+| 23  | [What are the supported Mouse Button Modifiers in Vue.js?](#23-what-are-the-supported-mouse-button-modifiers-in-vuejs) |
+| 24  | [How do you implement two-way binding in Vue.js?](#24-how-do-you-implement-two-way-binding-in-vuejs) |
+| 25  | [What are the supported modifiers on model in Vue.js?](#25-what-are-the-supported-modifiers-on-model-in-vuejs) |
+| 26  | [What are components in Vue.js and can you give an example?](#26-what-are-components-in-vuejs-and-can-you-give-an-example) |
+| 27  | [What are props in Vue.js?](#27-what-are-props-in-vuejs)                              |
+| 28  | [When does a component need to have a single root element?](#28-when-does-a-component-need-to-have-a-single-root-element) |
+| 29  | [How do you communicate from a child component to its parent using events in Vue.js?](#29-how-do-you-communicate-from-a-child-component-to-its-parent-using-events-in-vuejs) |
+| 30  | [How do you implement the v-model directive on custom input components in Vue.js?](#30-how-do-you-implement-the-v-model-directive-on-custom-input-components-in-vuejs) |
+| 31  | [What are slots in Vue.js?](#31-what-are-slots-in-vuejs)                              |
+| 32  | [What is global registration in Vue.js components?](#32-what-is-global-registration-in-vuejs-components) |
+| 33  | [Why do you need local registration of Vue.js components?](#33-why-do-you-need-local-registration-of-vuejs-components) |
+| 34  | [What is the difference between local and global registration of Vue.js components in the module system?](#34-what-is-the-difference-between-local-and-global-registration-of-vuejs-components-in-the-module-system) |
+| 35  | [What are the possible prop types in Vue.js?](#35-what-are-the-possible-prop-types-in-vuejs) |
+| 36  | [What is the data flow followed by props in Vue.js?](#36-what-is-the-data-flow-followed-by-props-in-vuejs) |
+| 37  | [What are non-prop attributes in Vue.js?](#37-what-are-non-prop-attributes-in-vuejs) |
+| 38  | [Describe the validations available for props in Vue.js.](#38-describe-the-validations-available-for-props-in-vuejs) |
+| 39  | [How do you customize the v-model directive for a component in Vue.js?](#39-how-do-you-customize-the-v-model-directive-for-a-component-in-vuejs) |
+| 40  | [What are the possible ways to provide transitions in Vue.js?](#40-what-are-the-possible-ways-to-provide-transitions-in-vuejs) | -->
 
-<!-- [1. What is VueJS?](#1-what-is-vuejs)
-[2. What are the major features of VueJS?](#2-what-are-the-major-features-of-vuejs)
-[3. What are the lifecycle methods of VueJS?](#3-what-are-the-lifecycle-methods-of-vuejs)
-[4. What are the conditional directives in VueJS?](#4-what-are-the-conditional-directives-in-vuejs)
-[5. What is the difference between v-show and v-if directives?](#5-what-is-the-difference-between-v-show-and-v-if-directives)
-[6. What is the purpose of v-for directive?](#6-what-is-the-purpose-of-v-for-directive)
-[7. What is a Vue instance?](#7-what-is-a-vue-instance)
-[8. How do you achieve a conditional group of elements?](#8-how-do-you-achieve-a-conditional-group-of-elements)
-[9. How do you reuse elements with a key attribute?](#9-how-do-you-reuse-elements-with-a-key-attribute)
-[10. Why should you not use if and for directives together on the same element?](#10-why-should-you-not-use-if-and-for-directives-together-on-the-same-element)
-[11. Why do you need to use a key attribute on the v-for directive?](#11-why-do-you-need-to-use-a-key-attribute-on-the-v-for-directive)
-[12. What are the array detection mutation methods?](#12-what-are-the-array-detection-mutation-methods)
-[13. What are the array detection non-mutation methods?](#13-what-are-the-array-detection-non-mutation-methods)
-[14. What are the caveats of array changes detection?](#14-what-are-the-caveats-of-array-changes-detection)
-[15. What are the caveats of object changes detection?](#15-what-are-the-caveats-of-object-changes-detection)
-[16. How do you use the v-for directive with a range?](#16-how-do-you-use-the-v-for-directive-with-a-range)
-[17. How do you use the v-for directive on a template?](#17-how-do-you-use-the-v-for-directive-on-a-template)
-[18. How do you use event handlers in Vue.js?](#18-how-do-you-use-event-handlers-in-vuejs)
-[19. What are the event modifiers provided by Vue?](#19-what-are-the-event-modifiers-provided-by-vue)
-[20. What are key modifiers in Vue.js?](#20-what-are-key-modifiers-in-vuejs)
-[21. How do you define custom key modifier aliases in Vue.js?](#21-how-do-you-define-custom-key-modifier-aliases-in-vuejs)
-[22. What are the supported System Modifier Keys in Vue.js?](#22-what-are-the-supported-system-modifier-keys-in-vuejs)
-[23. What are the supported Mouse Button Modifiers in Vue.js?](#23-what-are-the-supported-mouse-button-modifiers-in-vuejs)
-[24. How do you implement two-way binding in Vue.js?](#24-how-do-you-implement-two-way-binding-in-vuejs)
-[25. What are the supported modifiers on model in Vue.js?](#25-what-are-the-supported-modifiers-on-model-in-vuejs)
-[26. What are components in Vue.js and can you give an example?](#26-what-are-components-in-vuejs-and-can-you-give-an-example)
-[27. What are props in Vue.js?](#27-what-are-props-in-vuejs)
-[28. When does a component need to have a single root element?](#28-when-does-a-component-need-to-have-a-single-root-element)
-[29. How do you communicate from a child component to its parent using events in Vue.js?](#29-how-do-you-communicate-from-a-child-component-to-its-parent-using-events-in-vuejs)
-[30. How do you implement the v-model directive on custom input components in Vue.js?](#30-how-do-you-implement-the-v-model-directive-on-custom-input-components-in-vuejs)
-[31. What are slots in Vue.js?](#31-what-are-slots-in-vuejs)
-[32. What is global registration in Vue.js components?](#32-what-is-global-registration-in-vuejs-components)
-[33. Why do you need local registration of Vue.js components?](#33-why-do-you-need-local-registration-of-vuejs-components)
-[34. What is the difference between local and global registration of Vue.js components in the module system?](#34-what-is-the-difference-between-local-and-global-registration-of-vuejs-components-in-the-module-system)
-[35. What are the possible prop types in Vue.js?](#35-what-are-the-possible-prop-types-in-vuejs)
-[36. What is the data flow followed by props in Vue.js?](#36-what-is-the-data-flow-followed-by-props-in-vuejs)
-[37. What are non-prop attributes in Vue.js?](#37-what-are-non-prop-attributes-in-vuejs)
-[38. Describe the validations available for props in Vue.js.](#38-describe-the-validations-available-for-props-in-vuejs)
-[39. How do you customize the v-model directive for a component in Vue.js?](#39-how-do-you-customize-the-v-model-directive-for-a-component-in-vuejs)
-[40. What are the possible ways to provide transitions in Vue.js?](#40-what-are-the-possible-ways-to-provide-transitions-in-vuejs) -->
 
 ---
 
@@ -322,56 +324,56 @@ In Vue.js, global registration refers to registering a component globally, which
 
 ---
 
-#### 33. What are mixins in Vue.js?
+#### 33.Why do you need local registration of Vue.js components ?
 
 ***✅Explanation:***
-In Vue.js, mixins are a way to share reusable functionality between components. A mixin is an object with component options that can be merged into the options of any Vue component. This allows you to encapsulate and share common logic, data, computed properties, methods, and lifecycle hooks among multiple components. By using mixins, you can keep your codebase organized and promote code reuse. However, be cautious with mixins, as they can lead to complex component relationships and conflicts if used excessively. For more information and examples, you can refer to the Vue.js documentation on mixins: https://vuejs.org/v2/guide/mixins.html.
+In Vue.js, local registration of components is necessary when you want to use a component within a specific scope, such as a single file component or a particular component hierarchy.By locally registering a component, you ensure that it is only available within the designated scope, limiting its visibility and avoiding potential naming conflicts.This helps maintain encapsulation and separation of concerns in your application.For more information, you can refer to the Vue.js documentation on component registration: https://vuejs.org/v2/guide/components-registration.html#Local-Registration.
 
 ---
 
-#### 34. What are directives in Vue.js?
+#### 34.What is the difference between local and global registration of Vue.js components in the module system?
 
 ***✅Explanation:***
-In Vue.js, directives are special attributes that allow you to apply reactive behavior to elements in the DOM. They are prefixed with "v-" followed by the directive name. Directives can be used to manipulate the DOM, apply conditional logic, control rendering behavior, and more. For example, v-if, v-show, v-bind, v-on, v-for are some of the built-in directives provided by Vue.js. Additionally, you can create custom directives to extend Vue.js functionality based on your specific needs. For more details and examples, you can refer to the Vue.js documentation on directives: https://vuejs.org/v2/guide/custom-directive.html.
+In the module system of Vue.js, the main difference between local and global registration of components lies in their scope and visibility.Local registration requires components to be explicitly imported and used within specific files, making them scoped to the files where they are registered.On the other hand, global registration makes components available globally, without the need for explicit importing.This means they can be used anywhere in the application, but it may lead to a larger bundle size and potential naming conflicts.For more details, you can refer to the Vue.js documentation on component registration: https://vuejs.org/v2/guide/components-registration.html#Local-Registration and https://vuejs.org/v2/guide/components-registration.html#Global-Registration.
 
 ---
 
-#### 35. How do you define a custom directive in Vue.js?
+#### 35. What are the possible prop types in Vue.js ?
 
 ***✅Explanation:***
-In Vue.js, you can define a custom directive by using the Vue.directive method. This method takes the directive name as the first argument and an object with directive hooks as the second argument. The directive hooks include bind, inserted, update, componentUpdated, and unbind, which allow you to define the behavior of the custom directive at different stages of the element's lifecycle. By defining a custom directive, you can extend Vue.js with new functionality that can be reused across your application. For more information and examples, you can refer to the Vue.js documentation on custom directives: https://vuejs.org/v2/guide/custom-directive.html.
+In Vue.js, the possible prop types include String, Number, Boolean, Array, Object, Date, Function, and Symbol.These prop types define the expected data type of a prop when passing data from a parent component to a child component.The prop type validation ensures that the received prop value matches the specified type.For more details and examples, you can refer to the Vue.js documentation on prop types: https://vuejs.org/v2/guide/components-props.html#Prop-Types.
 
 ---
 
-#### 36. What is Vuex in Vue.js?
+#### 36. What is the data flow followed by props in Vue.js ?
 
 ***✅Explanation:***
-Vuex is the official state management pattern and library for Vue.js applications. It serves as a centralized store for managing the state of the application and enables a uni-directional data flow. Vuex is based on the Flux pattern and provides a set of rules to structure and manage the application's data in a predictable way. It includes a state, mutations, actions, getters, and modules. With Vuex, you can efficiently manage the data flow and shared state between components in large-scale Vue.js applications. For more details and examples, you can refer to the Vuex documentation: https://vuex.vuejs.org/.
+In Vue.js, props follow a one - way data flow, which means data is passed from a parent component to a child component through props.The parent component sets the prop value and passes it down to the child component.The child component can access and use the prop value, but it cannot modify the original prop value directly.This unidirectional data flow helps maintain a clear and predictable data flow hierarchy in the component architecture.For more information, you can refer to the Vue.js documentation on props: https://vuejs.org/v2/guide/components-props.html.
 
 ---
 
-#### 37. What is the purpose of getters in Vuex?
+#### 37. What are non - prop attributes in Vue.js ?
 
 ***✅Explanation:***
-In Vuex, getters are functions that allow you to retrieve and compute derived state from the Vuex store. Getters are similar to computed properties in Vue components but are stored in the store and can be accessed from any component that is connected to the store. Getters are useful for computing derived state and providing a cached version of computed values, especially when the computation is based on multiple pieces of the store state. By using getters, you can avoid duplicating computed logic in multiple components. For more information and examples, you can refer to the Vuex documentation on getters: https://vuex.vuejs.org/guide/getters.html.
+In Vue.js, non - prop attributes are HTML attributes that are passed to a component but are not explicitly defined as props.These attributes are automatically added to the component's root element as regular HTML attributes. Non-prop attributes provide a way to customize the behavior or appearance of a component without requiring explicit prop definitions. For example, you can pass a class attribute to a component to apply a custom CSS class. For more details, you can refer to the Vue.js documentation on non-prop attributes: https://vuejs.org/v2/guide/components-props.html#Non-Prop-Attributes.
 
 ---
 
-#### 38. What are mutations in Vuex?
+#### 38. Describe the validations available for props in Vue.js.
 
 ***✅Explanation:***
-In Vuex, mutations are the only way to modify the state of the store. They are responsible for updating the state and ensuring that changes are tracked for reactivity. Mutations are similar to events in that they specify the type of change and the payload containing the data to be updated. However, unlike events, mutations are synchronous and cannot be directly used for asynchronous operations. Instead, you should perform asynchronous operations in actions and then commit mutations to update the state based on the results. For more details and examples, you can refer to the Vuex documentation on mutations: https://vuex.vuejs.org/guide/mutations.html.
+In Vue.js, you can perform validations on props using various techniques.Type validation is used to ensure that the received prop matches the specified type.You can also provide default values for props, which will be used when the prop is not provided.Additionally, you can define custom validators using JavaScript functions to perform custom validation logic on the prop value.This allows you to define specific rules and conditions for the prop value.For more information and examples, you can refer to the Vue.js documentation on prop validation: https://vuejs.org/v2/guide/components-props.html#Prop-Validation.
 
 ---
 
-#### 39. What is the purpose of actions in Vuex?
+#### 39. How do you customize the v - model directive for a component in Vue.js ?
 
 ***✅Explanation:***
-In Vuex, actions are functions that can be dispatched to perform asynchronous operations and trigger mutations to update the state. Actions are responsible for handling side effects and business logic, such as making API calls, before committing mutations. Actions are asynchronous by nature and are often used to decouple the API calls and other asynchronous operations from the components. By using actions, you can keep your components simple and delegate complex operations to the Vuex store. For more information and examples, you can refer to the Vuex documentation on actions: https://vuex.vuejs.org/guide/actions.html.
+In Vue.js, you can customize the v - model directive for a component by using the model option in the component's options object. By specifying the prop and event options, you can change the prop and event names used in the v-model directive. This allows you to create a custom two-way binding for the component, with custom prop and event names that suit your needs. For more information and examples, you can refer to the Vue.js documentation on customizing v-model: https://vuejs.org/v2/guide/components.html#Customizing-Component-v-model.
 
 ---
 
-#### 40. What is the purpose of modules in Vuex?
+#### 40.What are the possible ways to provide transitions in Vue.js ?
 
 ***✅Explanation:***
-In Vuex, modules are used to organize the store into separate, smaller modules with their own state, mutations, actions, and getters. Modules allow you to break down the store into smaller pieces and manage different parts of the application separately. This is particularly useful for large-scale applications with complex state management needs. Each module can be interconnected, and the store can be organized as a tree of modules, which facilitates code organization and maintainability. For more details and examples, you can refer to the Vuex documentation on modules: https://vuex.vuejs.org/guide/modules.html.
+In Vue.js, there are multiple ways to provide transitions.You can use CSS transitions by defining transition classes in your CSS and applying them to elements.Additionally, you can use JavaScript animations libraries, such as GSAP or Anime.js, to create custom animations.Vue.js also provides built -in transition components, such as <transition> and<transition- group >, which allow you to animate elements when they are inserted, updated, or removed from the DOM.Finally, Vue CLI plugins, such as vue - cli - plugin - animate, can be used to enhance animation capabilities.For more details and examples, you can refer to the Vue.js documentation on transitions and animations: https://vuejs.org/v2/guide/transitions.html.
