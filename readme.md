@@ -41,6 +41,7 @@
 [39. How do you customize the v-model directive for a component in Vue.js?](#39-how-do-you-customize-the-v-model-directive-for-a-component-in-vuejs)
 [40. What are the possible ways to provide transitions in Vue.js?](#40-what-are-the-possible-ways-to-provide-transitions-in-vuejs)
 
+---
 
 #### 1. What is VueJS?
 
