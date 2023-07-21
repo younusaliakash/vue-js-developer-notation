@@ -310,7 +310,7 @@ In Vue.js, props follow a one - way data flow, which means data is passed from a
 
 ---
 
-#### 37. What are non - prop attributes in Vue.js ?
+#### 37. What are non prop attributes in Vue.js ?
 
 ***✅Explanation:***
 In Vue.js, non - prop attributes are HTML attributes that are passed to a component but are not explicitly defined as props.These attributes are automatically added to the component's root element as regular HTML attributes. Non-prop attributes provide a way to customize the behavior or appearance of a component without requiring explicit prop definitions. For example, you can pass a class attribute to a component to apply a custom CSS class. For more details, you can refer to the Vue.js documentation on non-prop attributes: https://vuejs.org/v2/guide/components-props.html#Non-Prop-Attributes.
@@ -324,14 +324,14 @@ In Vue.js, you can perform validations on props using various techniques.Type va
 
 ---
 
-#### 39. How do you customize the v - model directive for a component in Vue.js ?
+#### 39. How do you customize the v model directive for a component in Vue.js ?
 
 ***✅Explanation:***
 In Vue.js, you can customize the v - model directive for a component by using the model option in the component's options object. By specifying the prop and event options, you can change the prop and event names used in the v-model directive. This allows you to create a custom two-way binding for the component, with custom prop and event names that suit your needs. For more information and examples, you can refer to the Vue.js documentation on customizing v-model: https://vuejs.org/v2/guide/components.html#Customizing-Component-v-model.
 
 ---
 
-#### 40.What are the possible ways to provide transitions in Vue.js ?
+#### 40. What are the possible ways to provide transitions in Vue.js ?
 
 ***✅Explanation:***
 In Vue.js, there are multiple ways to provide transitions.You can use CSS transitions by defining transition classes in your CSS and applying them to elements.Additionally, you can use JavaScript animations libraries, such as GSAP or Anime.js, to create custom animations.Vue.js also provides built -in transition components, such as <transition> and<transition- group >, which allow you to animate elements when they are inserted, updated, or removed from the DOM.Finally, Vue CLI plugins, such as vue - cli - plugin - animate, can be used to enhance animation capabilities.For more details and examples, you can refer to the Vue.js documentation on transitions and animations: https://vuejs.org/v2/guide/transitions.html.
