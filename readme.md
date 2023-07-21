@@ -34,14 +34,14 @@
 | 30  | [How do you implement the v-model directive on custom input components in Vue.js?](#30-how-do-you-implement-the-v-model-directive-on-custom-input-components-in-vuejs) |
 | 31  | [What are slots in Vue.js?](#31-what-are-slots-in-vuejs)                              |
 | 32  | [What is global registration in Vue.js components?](#32-what-is-global-registration-in-vuejs-components) |
-| 33  | [Why do you need local registration of Vue.js components?](#33-why-do-you-need-local-registration-of-vuejs-components) |
+| 33  | [Why do you need local registration of Vue.js components?](#33-why-do-you-need-local-registration-of-vuejs-components-) |
 | 34  | [What is the difference between local and global registration of Vue.js components in the module system?](#34-what-is-the-difference-between-local-and-global-registration-of-vuejs-components-in-the-module-system) |
-| 35  | [What are the possible prop types in Vue.js?](#35-what-are-the-possible-prop-types-in-vuejs) |
-| 36  | [What is the data flow followed by props in Vue.js?](#36-what-is-the-data-flow-followed-by-props-in-vuejs) |
-| 37  | [What are non-prop attributes in Vue.js?](#37-what-are-non-prop-attributes-in-vuejs) |
+| 35  | [What are the possible prop types in Vue.js?](#35-what-are-the-possible-prop-types-in-vuejs-) |
+| 36  | [What is the data flow followed by props in Vue.js?](#36-what-is-the-data-flow-followed-by-props-in-vuejs-) |
+| 37  | [What are non-prop attributes in Vue.js?](#37-what-are-non-prop-attributes-in-vuejs-) |
 | 38  | [Describe the validations available for props in Vue.js.](#38-describe-the-validations-available-for-props-in-vuejs) |
-| 39  | [How do you customize the v-model directive for a component in Vue.js?](#39-how-do-you-customize-the-v-model-directive-for-a-component-in-vuejs) |
-| 40  | [What are the possible ways to provide transitions in Vue.js?](#40-what-are-the-possible-ways-to-provide-transitions-in-vuejs) |
+| 39  | [How do you customize the v-model directive for a component in Vue.js?](#39-how-do-you-customize-the-v-model-directive-for-a-component-in-vuejs-) |
+| 40  | [What are the possible ways to provide transitions in Vue.js?](#40-what-are-the-possible-ways-to-provide-transitions-in-vuejs-) |
 
 
 
@@ -282,13 +282,14 @@ In Vue.js, global registration refers to registering a component globally, which
 ---
 
 #### 33. Why do you need local registration of Vue.js components ?
+33-why-do-you-need-local-registration-of-vuejs-components
 
 ***✅Explanation:***
 In Vue.js, local registration of components is necessary when you want to use a component within a specific scope, such as a single file component or a particular component hierarchy.By locally registering a component, you ensure that it is only available within the designated scope, limiting its visibility and avoiding potential naming conflicts.This helps maintain encapsulation and separation of concerns in your application.For more information, you can refer to the Vue.js documentation on component registration: https://vuejs.org/v2/guide/components-registration.html#Local-Registration.
 
 ---
 
-#### 34.What is the difference between local and global registration of Vue.js components in the module system?
+#### 34. What is the difference between local and global registration of Vue.js components in the module system?
 
 ***✅Explanation:***
 In the module system of Vue.js, the main difference between local and global registration of components lies in their scope and visibility.Local registration requires components to be explicitly imported and used within specific files, making them scoped to the files where they are registered.On the other hand, global registration makes components available globally, without the need for explicit importing.This means they can be used anywhere in the application, but it may lead to a larger bundle size and potential naming conflicts.For more details, you can refer to the Vue.js documentation on component registration: https://vuejs.org/v2/guide/components-registration.html#Local-Registration and https://vuejs.org/v2/guide/components-registration.html#Global-Registration.
