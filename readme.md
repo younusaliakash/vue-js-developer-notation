@@ -1,6 +1,6 @@
 # Vue js Interview Questions
 
-####  [1. What is VueJS?](#1-what-is-vuejs)
+[1. What is VueJS?](#1-what-is-vuejs)
 #### [2. What are the major features of VueJS?](#2-what-are-the-major-features-of-vuejs)
 #### [3. What are the lifecycle methods of VueJS?](#3-what-are-the-lifecycle-methods-of-vuejs)
 #### [4. What are the conditional directives in VueJS?](#4-what-are-the-conditional-directives-in-vuejs)
