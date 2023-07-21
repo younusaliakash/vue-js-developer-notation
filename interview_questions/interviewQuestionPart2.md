@@ -4,46 +4,48 @@ This README contains a collection of Vue.js interview questions along with their
 
 ## Table of Contents
 
-1. [Question 1](#question-1)
-2. [Question 2](#question-2)
-3. [Question 3](#question-3)
-4. [Question 4](#question-4)
-5. [Question 5](#question-5)
-6. [Question 6](#question-6)
-7. [Question 7](#question-7)
-8. [Question 8](#question-8)
-9. [Question 9](#question-9)
-10. [Question 10](#question-10)
-11. [Question 11](#question-11)
-12. [Question 12](#question-12)
-13. [Question 13](#question-13)
-14. [Question 14](#question-14)
-15. [Question 15](#question-15)
-16. [Question 16](#question-16)
-17. [Question 17](#question-17)
-18. [Question 18](#question-18)
-19. [Question 19](#question-19)
-20. [Question 20](#question-20)
-21. [Question 21](#question-21)
-22. [Question 22](#question-22)
-23. [Question 23](#question-23)
-24. [Question 24](#question-24)
-25. [Question 25](#question-25)
-26. [Question 26](#question-26)
-27. [Question 27](#question-27)
-28. [Question 28](#question-28)
-29. [Question 29](#question-29)
-30. [Question 30](#question-30)
-31. [Question 31](#question-31)
-32. [Question 32](#question-32)
-33. [Question 33](#question-33)
-34. [Question 34](#question-34)
-35. [Question 35](#question-35)
-36. [Question 36](#question-36)
-37. [Question 37](#question-37)
-38. [Question 38](#question-38)
-39. [Question 39](#question-39)
-40. [Question 40](#question-40)
+
+- **Question 1:** [What problems are solved by Single File Components in Vue.js?](#question-1)
+- **Question 2:** [What are plugins and their various services in Vue.js?](#question-2)
+- **Question 3:** [How do you create a plugin in Vue.js?](#question-3)
+- **Question 4:** [What are the different ways to create filters in Vue.js?](#question-4)
+- **Question 5:** [How do you use a plugin in Vue.js?](#question-5)
+- **Question 6:** [What are mixins in Vue.js?](#question-6)
+- **Question 7:** [What are global mixins in Vue.js?](#question-7)
+- **Question 8:** [How do you use mixins in CLI in Vue.js?](#question-8)
+- **Question 9:** [What are the merging strategies in mixins in VueJS?](#question-9)
+- **Question 10:** [What are custom options merging strategies in VueJS?](#question-10)
+- **Question 11:** [What are custom directives in VueJS?](#question-11)
+- **Question 12:** [How do you register directives locally in VueJS?](#question-12)
+- **Question 13:** [What are the hook functions provided by directives in VueJS?](#question-13)
+- **Question 14:** [What are the directive Hook Arguments in VueJS?](#question-14)
+- **Question 15:** [How do you pass multiple values to a directive in VueJS?](#question-15)
+- **Question 16:** [What is function shorthand in directive hooks in VueJS?](#question-16)
+- **Question 17:** [What is the benefit of render functions over templates in VueJS?](#question-17)
+- **Question 18:** [What is a render function in VueJS?](#question-18)
+- **Question 19:** [Explain the structure of createElement with arguments in VueJS](#question-19)
+- **Question 20:** [How can you write duplicate virtual nodes in a component in VueJS?](#question-20)
+- **Question 21:** [List down the template equivalents in render functions in VueJS](#question-21)
+- **Question 22:** [What are functional components in VueJS?](#question-22)
+- **Question 23:** [What are the similarities between VueJS and ReactJS?](#question-23)
+- **Question 24:** [What is the difference between VueJS and ReactJS?](#question-24)
+- **Question 25:** [What are the advantages of VueJS over ReactJS?](#question-25)
+- **Question 26:** [What are the advantages of ReactJS over VueJS?](#question-26)
+- **Question 27:** [What are the differences between VueJS and Angular?](#question-27)
+- **Question 28:** [What are dynamic components?](#question-28)
+- **Question 29:** [What is the purpose of the keep-alive tag?](#question-29)
+- **Question 30:** [What are async components?](#question-30)
+- **Question 31:** [What is the structure of the async component factory?](#question-31)
+- **Question 32:** [What is Vue Router in Vue.js?](#question-32)
+- **Question 33:** [What are the features of Vue Router in Vue.js?](#question-33)
+- **Question 34:** [What are the steps to use Vue Router in a Vue.js application?](#question-34)
+- **Question 35:** [What is dynamic route matching in Vue Router?](#question-35)
+- **Question 36:** [How do you make router param changes reactive in Vue Router?](#question-36)
+- **Question 37:** [What is the route matching priority in Vue Router?](#question-37)
+- **Question 38:** [What are nested routes in Vue Router?](#question-38)
+- **Question 39:** [What are Single File Components in Vue.js?](#question-39)
+- **Question 40:** [Is using Single File Components in Vue.js violating separation of concerns?](#question-40)
+
 
 ---
 
@@ -400,10 +402,6 @@ In Vue Router, nested routes allow you to define routes within other routes, cre
 
 ✅Explanation
 In Vue.js, Single File Components encapsulate the template, script, and style of a component into a single file. This single file typically has a `.vue` extension and contains all the necessary code for a component, including the HTML template, JavaScript logic, and CSS styling. Single File Components provide a structured and concise way to organize a component's code, improving code readability, maintainability, and reusability. They also enable features like syntax highlighting, linting, and hot-reloading in development environments. For more details, you can refer to the Vue.js documentation on Single File Components: [Single File Components](https://vuejs.org/v2/guide/single-file-components.html).
-
-...
-
-...
 
 ---
 
