@@ -14,8 +14,8 @@
 
 <table>
 <tr>
-<th width="50%">Topic<td>
-<th width="50%">Topic<td>
+<th >Topic<td>
+<th >Topic<td>
 </tr>
 <tr>
 <td> 
@@ -68,4 +68,4 @@
 ### Vue.js/Nuxt.js Blogs
 ***Your content for Vue.js/Nuxt.js Blogs goes here.***
 ### Vue.js Other Resources
-***Your content for Vue.js Other Resources goes here.***
+***Your content for Vue.js Other Resources goes here.
