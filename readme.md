@@ -60,7 +60,7 @@
 
 | No. | Question                                                                            |
 |-----|-------------------------------------------------------------------------------------|
-| 1   | [What is VueJS?]("/vue_note/2_what_is_vuejs3.md")                                                  |
+| 1   | [What is VueJS?]("vue_note/2_what_is_vuejs3.md")                                                  |
 | 2   | [Why VueJS?](#2-why-vuejs)                                                          |
 | 3   | [Comparing Vue with Other Framework](#3-comparing-vue-with-other-framework)        |
 | 4   | [Setting Up the Development Environment](#4-setting-up-the-development-environment) |
