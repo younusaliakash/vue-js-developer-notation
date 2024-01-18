@@ -5,8 +5,8 @@
 <h1 align="center">Vue JS Developer Notation</h1>
 <p align="center">
 <em>Contributions : 
-<a target="_blank" href="https://github.com/younusaliakash">Younus Ali Akash</a> &
-<a target="_blank" href="https://github.com/faisal2410">Faisal Ahmed</a>
+<a target="_blank" href="https://github.com/younusaliakash">Younus Ali Akash</a>
+  <img src="https://github.com/younusaliakash.png" width="60px;"/>
 </em>
 </p>
 
